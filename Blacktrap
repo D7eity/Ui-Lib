@@ -84,11 +84,11 @@ local themes = {
 
 local themeStyles = {
     Default = {
-        AccentColor = Color3.fromRGB(45, 45, 45),
-        Background = Color3.fromRGB(30, 30, 30),
-        TextColor = Color3.fromRGB(180, 180, 180),
-        ImageColor = Color3.fromRGB(255, 255, 255),
-        ElementColor = Color3.fromRGB(12, 12, 12)
+        AccentColor = Color3.fromRGB(166, 172, 255),
+        Background = Color3.fromRGB(0, 0, 0),
+        TextColor = Color3.fromRGB(255, 255, 255),
+        ImageColor = Color3.fromRGB(166, 172, 255),
+        ElementColor = Color3.fromRGB(0, 0, 0)
     },
     DarkTheme = {
         AccentColor = Color3.fromRGB(64, 64, 64),
