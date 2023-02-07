@@ -395,7 +395,7 @@ function Library:CreateWindow(title, gameName)
     end)
 
     mainDiscord.MouseButton1Click:Connect(function()
-        setclipboard("https://discord.gg/kwsK36GA5F")
+        setclipboard("https://discord.gg/txqwMtUgzu")
         wait(.1)
         self:Notify("Discord", "Discord Link Copied To Clipboard")
     end)
