@@ -251,9 +251,11 @@ function Library:CreateWindow(title, gameName)
     openBT.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     openBT.BackgroundTransparency = 1.000
     openBT.BorderSizePixel = 0
-    openBT.Size = UDim2.new(0, 359, 0, 50)
+    openBT.Size = UDim2.new(0, 65, 0, 65)
     openBT.Image = "rbxassetid://12332814310"
-    openBT.Position = UDim2.new(0.10352423, 0, 0.596330225, 0)
+    openBT.Position = UDim2.new(0.0910987556, 0, 0.208211139, 0)
+    openBT.Active = true
+    openBT.Draggable = true
     --openBT.ImageColor3 = Color3.fromRGB(0, 0, 0)
 	
     openBT.MouseLeave:Connect(function()
