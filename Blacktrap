@@ -261,11 +261,15 @@ function Library:CreateWindow(title, gameName)
     openBT.MouseLeave:Connect(function()
         Utility:TweenObject(openBT, {Size = UDim2.new(0, 35, 0, 35)}, 0.1)
         Utility:TweenObject(openBT, {BackgroundTransparency = 1}, 0.1)
+	openBT.Size = UDim2.new(0, 45, 0, 45)
+
     end)
     
     openBT.MouseEnter:Connect(function()
         Utility:TweenObject(openBT, {Size = UDim2.new(0, 35, 0, 35)}, 0.1)
         Utility:TweenObject(openBT, {BackgroundTransparency = 0.5}, 0.1)
+	openBT.Size = UDim2.new(0, 45, 0, 45)
+
     end)
 
     local openclosetog = false
@@ -275,6 +279,7 @@ function Library:CreateWindow(title, gameName)
         else
             Utility:TweenObject(Main, {Size = UDim2.new(0, 0, 0, 0)}, 0.1)
         end
+	openBT.Size = UDim2.new(0, 45, 0, 45)
         openclosetog = not openclosetog
     end)
 
