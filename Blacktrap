@@ -321,7 +321,7 @@ function Library:CreateWindow(title, gameName)
     mainLogo.BorderSizePixel = 0
     mainLogo.Position = UDim2.new(0.00200000009, 3, 0.114, 0)
     mainLogo.Size = UDim2.new(0, 21, 0, 21)
-    mainLogo.Image = "rbxassetid://2005276185"
+    mainLogo.Image = "rbxassetid://12332814310"
     --mainLogo.ImageColor3 = Color3.fromRGB(0, 0, 0)
 
     mainTitle.Name = "mainTitle"
